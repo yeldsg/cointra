@@ -1,0 +1,3 @@
+# Uploaded profile pictures and banners (real user photos)
+uploads/*
+!uploads/.gitkeep
