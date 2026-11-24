@@ -12,6 +12,20 @@ CoinTra helps users manage their money in one place. Users can organize spending
 
 ---
 
+## Screenshots
+
+<img src="docs/screenshots/income-dashboard.png" alt="Income dashboard with a monthly income chart and expense, income, and balance totals">
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/landing.png" alt="Landing page"><br><sub>Landing page</sub></td>
+    <td width="50%"><img src="docs/screenshots/accounts.png" alt="Accounts page with cash, bank, e-wallet, and credit card balances"><br><sub>Accounts page with cash, bank, e-wallet, and credit card balances</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/budgets.png" alt="Budgets page with monthly limits and progress bars per category"><br><sub>Budgets page with monthly limits and progress bars per category</sub></td>
+  </tr>
+</table>
+
 ## Features
 
 - **Authentication:** sign up and log in with a username or email; passwords are hashed with PHP's `password_hash`
@@ -34,6 +48,14 @@ The front end and back end are separated by a JSON REST API.
 - **`config/`** contains the database connection (PDO) and session helpers.
 
 Every API endpoint requires a logged-in session and only returns the current user's data. All queries use PDO prepared statements to prevent SQL injection.
+
+## My Role
+
+I worked on this team project as the **Full-Stack Developer** and led the team as **Project Manager**.
+
+- Developed a dashboard summarizing income, expenses, and spending by category.
+- Co-built the PHP/MySQL backend for recording and managing each user's income and expense records.
+- Implemented PDF export of financial statements for users to download.
 
 ## Tech Stack
 
@@ -95,9 +117,9 @@ CoinTra/
 
 ## About This Project
 
-CoinTra was built as a team project for a web development course (September – December 2025). I worked on it as a **Full-Stack Developer**.
+CoinTra was built as a team project for a web development course (September – December 2025).
 
 ## Author
 
 **Kathrina Marhiel Zamora** · BS Information Technology, Pampanga State University
-GitHub: [@yeldsg](https://github.com/yeldsg)
+GitHub: [@yeldsg](https://github.com/yeldsg) · Portfolio: [yeldsg-portfolio.vercel.app](https://yeldsg-portfolio.vercel.app)
